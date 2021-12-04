@@ -1,0 +1,218 @@
+/*--------------------phone list start ---------------------------*/
+.filter-select {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.phone-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.admin-add-phone {
+    text-align: center;
+    margin: 20px;
+}
+.css-b62m3t-container { /*select filter*/
+    position: relative;
+    box-sizing: border-box;
+    min-width: 12rem;
+}
+/*--------------------phone list end ---------------------------*/
+/*--------------------compaire section start----------------------*/
+
+h1.compair-title::before,h1.compair-title::after{
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-.4rem);
+}
+h1.compair-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+  text-align: center;
+}
+.col, .col-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+}
+div#specIMG {
+    height: 212px;
+}
+.to-line{
+  border-top: 1px solid black;
+}
+/*--------------------compaire section end----------------------*/
+/*--------------------shopping cart start----------------------*/
+.shop-phones {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+table.items-head.table {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+div#shop-total-price {
+    text-align: center;
+}
+/*--------------------shopping cart end----------------------*/
+/*--------------------nav bar start----------------------*/
+.navbar-collapse{
+  justify-content: space-between;
+}
+.nav-home {
+    display: flex;
+}
+.mr-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+    margin: auto;
+}
+.nav-store {
+    position: absolute;
+    right: 0%;
+}
+.search-bar {
+    width: 300px;
+}
+.css-2b097c-container {
+    width: 300px;
+}
+.search-link {
+    display: flex;
+}
+/*--------------------nav bar end----------------------*/
+/*--------------------home page start----------------------*/
+.carousel.slide {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+.home-text {
+    text-align: center;
+    max-width: 900px;
+    margin: 50px auto;
+}
+.home-page {
+    margin: 20px 0 auto;
+}
+/*--------------------home page end----------------------*/
+/*--------------------phone specs start----------------------*/
+.phone-specs {
+    display: flex;
+    justify-content: center;
+}
+.phone-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5vw;
+}
+.phone-vid {
+    text-align: center;
+}
+.specs-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*--------------------phone specs end----------------------*/
+/*--------------------filter btns start----------------------*/
+/* .brand-btns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}
+.brand-btn{
+  width: 100px
+} */
+/*--------------------filter btns end----------------------*/
+
+/*--------------------phones start----------------------*/
+.all-phones {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+/*--------------------phones end----------------------*/
+
+/*--------------------phone card start----------------------*/
+.individual-phone {
+    margin: 30px;
+}
+img.card-img-top {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+button.card-btn {
+    width: 80px;
+    font-size: smaller;
+    padding: 7px 0;
+}
+.card-btns {
+    display: flex;
+    justify-content: space-around;
+}
+/*--------------------phone card end----------------------*/
+
+/*------------------------------- footer -------------------------------*/
+.border-top{
+  text-align: center;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+}
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  .mb-3{
+    margin: auto;
+  }
+  .about{
+    margin: auto;
+    text-align: center;
+  }
+  .needs-validation{
+    max-width: 500px;
+    margin: auto;
+  }
+  .center-it{
+    display: flex;
+    justify-self: center;
+  }
+}
+@media screen and (max-width: 490px) {
+  .make-small{
+    max-width: 490px;
+  }
+  .form-control,.mb-3,.needs-validation{
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 477px) {
+  .btn-outline-success{
+    max-width: 200px;
+  }
+}
+footer a{
+  text-decoration: none;
+}
+/*------------------------------- footer end -------------------------------*/
